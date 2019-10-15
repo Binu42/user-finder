@@ -2,7 +2,7 @@
   "name": "github-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://binu42.github.io/user-finder/",
+  "homepage": "https://binu42.github.io/user-finder",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
