@@ -2,8 +2,19 @@ nav.background-custom{
   background: #f84747;
 }
 
+.users-card{
+  min-height: 250px;
+}
+
 @media(max-width: 40rem){
   .navbar .navbar-brand h4{
     font-size: 22px;
+  }
+}
+
+
+@media(min-width: 790px){
+  .user-details{
+    height: 500px;
   }
 }
