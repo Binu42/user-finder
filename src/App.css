@@ -1,3 +1,9 @@
 nav.background-custom{
   background: #f84747;
 }
+
+@media(max-width: 40rem){
+  .navbar .navbar-brand h4{
+    font-size: 22px;
+  }
+}

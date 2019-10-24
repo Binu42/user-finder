@@ -2,7 +2,12 @@
 
 .search-form{
     margin: 20px auto;
-    text-align: center;
+    text-align: center;                             
+}
+
+/* global used styles */
+button:hover{
+    cursor: pointer;
 }
 
 .search-form input{
@@ -16,10 +21,16 @@
 }
 
 .search-form button{
+    padding: 6px;
     border-radius: 0 4px 4px 0;
     border: 1px solid #1d1c1c;
     background: #ececec;
 }
+/* 
+#clear-btn{
+    margin-left: 5px;
+    border-radius: 4px;
+} */
 
 .search-form button:hover{
     background: #fa5656;
