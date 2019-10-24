@@ -1,30 +1,31 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 
 const Navbar = ({icon, title}) => {
     return (
         <nav className="navbar navbar-expand-md navbar-light background-custom" id="main-nav">
             <div className="container">
-                <a className="navbar-brand" href="index.html">
+                <Link className="navbar-brand" to="/">
                     <h4 className="align-middle text-white d-inline"><i className={icon}></i> {title}</h4>
-                </a>
+                </Link>
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavId">
                     <span className="navbar-toggler-icon toggle"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="collapsibleNavId">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="#home">Home</a>
+                            <Link className="nav-link text-white" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="#about">About</a>
+                            <Link className="nav-link text-white" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="#authors">Meet The Authors</a>
+                            <Link className="nav-link text-white" to="#authors">Meet The Authors</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="#contact">contact</a>
+                            <Link className="nav-link text-white" to="#contact">contact</Link>
                         </li>
                     </ul>
                 </div>
