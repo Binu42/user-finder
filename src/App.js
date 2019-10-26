@@ -60,7 +60,7 @@ class App extends Component {
           <Navbar />
           <Alert alert={alert} />
           <Switch>
-            <Route exact path='/' render={props => (
+            <Route exact path='/user-finder' render={props => (
               <Fragment>
                 <Search searchUsers={this.searchUsers} clearUsers={this.clearUsers} showClear={users.length > 0 ? true : false} showAlert={this.showAlert} />
                 <div className="container">

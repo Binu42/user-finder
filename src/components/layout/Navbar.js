@@ -7,7 +7,7 @@ const Navbar = ({icon, title}) => {
     return (
         <nav className="navbar navbar-expand-md navbar-light background-custom" id="main-nav">
             <div className="container">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/user-finder">
                     <h4 className="align-middle text-white d-inline"><i className={icon}></i> {title}</h4>
                 </Link>
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavId">
@@ -16,7 +16,7 @@ const Navbar = ({icon, title}) => {
                 <div className="collapse navbar-collapse" id="collapsibleNavId">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="/">Home</Link>
+                            <Link className="nav-link text-white" to="/user-finder">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link text-white" to="/about">About</Link>
