@@ -1,20 +1,65 @@
-nav.background-custom{
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav.background-custom {
   background: #f84747;
 }
 
-.users-card{
+.users-card {
   min-height: 250px;
 }
 
-@media(max-width: 40rem){
-  .navbar .navbar-brand h4{
-    font-size: 22px;
-  }
+/* heart emoji */
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 20px;
+  animation: pulse 1s ease infinite;
+}
+
+/* facebook font */
+.fa-facebook-f{
+  color: #0062ff;
+}
+
+/* Github font */
+.fa-github{
+  color: #fff;
+}
+
+/* Linkedin font */
+.fa-linkedin-in{
+  color: #00eeff;
+}
+
+/* instagram font */
+.fa-instagram{
+  color: #f84747;
 }
 
 
-@media(min-width: 790px){
-  .user-details{
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+@media (max-width: 40rem) {
+  .navbar .navbar-brand h4 {
+    font-size: 25px;
+  }
+
+  .fab{
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 790px) {
+  .user-details {
     height: 500px;
   }
 }

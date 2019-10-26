@@ -8,6 +8,7 @@ import User from './components/users/User';
 import Search from './components/users/Search';
 import Alert from './components/layout/Alert';
 import About from './components/pages/About';
+import Footer from './components/layout/Footer';
 import { setTimeout } from 'timers';
 
 class App extends Component {
@@ -74,6 +75,7 @@ class App extends Component {
               <User {...props} getUser={this.getUser} user={user} loading={loading}/>
             )}/>
           </Switch>
+          <Footer/>
         </div>
       </Router>
     );

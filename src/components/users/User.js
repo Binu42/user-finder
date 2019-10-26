@@ -24,7 +24,7 @@ export class User extends Component {
         return (
             <Fragment>
                 <div className="container mt-2">
-                    <Link to='/' className='btn btn-light'>Back to Search</Link>
+                    <Link to='/user-finder' className='btn btn-light'>Back to Search</Link>
                     <div className="float-right">
                         Hireable: {' '}
                         {hireable ? (
