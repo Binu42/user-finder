@@ -41,6 +41,15 @@ nav.background-custom {
   color: #f84747;
 }
 
+/* footer copyright background */
+.bg-copyright-footer{
+  background: #6be9ffbb;
+}
+
+/* about me */
+.about-details{
+  font-size: 20px;
+}
 
 @keyframes pulse {
   0% { transform: scale(1); }

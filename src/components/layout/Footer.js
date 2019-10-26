@@ -24,7 +24,7 @@ function Footer() {
 	        c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
             </svg>   by <strong>Binu kumar</strong></div>
             
-            <div className="footer-copyright text-white text-center pb-2">© 2019</div>
+            <div className="bg-copyright-footer footer-copyright text-white text-center pb-2">© 2019</div>
 
         </footer>
     )

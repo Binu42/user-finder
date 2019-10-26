@@ -8,7 +8,7 @@ const Navbar = ({icon, title}) => {
         <nav className="navbar navbar-expand-md navbar-light background-custom" id="main-nav">
             <div className="container">
                 <Link className="navbar-brand" to="/user-finder">
-                    <h4 className="align-middle text-white d-inline"><i className={icon}></i> {title}</h4>
+                    <h5 className="align-middle text-white d-inline"><i className={icon}></i> {title}</h5>
                 </Link>
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavId">
                     <span className="navbar-toggler-icon toggle"></span>
