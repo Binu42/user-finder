@@ -7,12 +7,15 @@ import { Link } from 'react-router-dom';
 export class User extends Component {
     componentDidMount() {
         this.props.getUser(this.props.match.params.login);
+        this.props.getRepos(this.props.match.params.login);
     }
 
     static propTypes = {
         loading: PropTypes.bool,
         getUser: PropTypes.func.isRequired,
-        user: PropTypes.object.isRequired
+        user: PropTypes.object.isRequired,
+        getRepos: PropTypes.func.isRequired,
+        repos: PropTypes.array.isRequired
     }
 
     render() {
