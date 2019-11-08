@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const UserItems = ({user: {login, avatar_url, html_url}}) => {
+const UserItems = ({ user: { login, avatar_url, html_url } }) => {
     return (
         <div className="col-md-4 col-lg-3 my-2">
             <div className='card users-card'>
