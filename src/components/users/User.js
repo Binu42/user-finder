@@ -30,9 +30,7 @@ const User = ({ getUser, getRepos, match, loading, repos, user }) => {
                     <div className="col-md-6">
                         <div className="card user-details">
                             <div className="card-body text-center">
-                                <a href={avatar_url} className='user-image'>
-                                    <img src={avatar_url} className='rounded-circle img-fluid' style={{ 'width': '200px', 'margin': 'auto' }} alt="" />
-                                </a>
+                                <img src={avatar_url} className='rounded-circle img-fluid' style={{ 'width': '200px', 'margin': 'auto' }} alt="" />
                                 <h2>
                                     {name}
                                 </h2>

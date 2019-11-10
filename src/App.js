@@ -10,7 +10,7 @@ import Alert from './components/layout/Alert';
 import About from './components/pages/About';
 import Footer from './components/layout/Footer';
 import { setTimeout } from 'timers';
-import { async } from 'q';
+// import { async } from 'q';
 
 const App = () => {
   const [users, setUsers] = useState([]);
@@ -47,7 +47,7 @@ const App = () => {
 
   // Show Alert
   const showAlert = (message, type) => {
-    setAlert(message, type);
+    setAlert({message, type});
     setTimeout(() => {
       setAlert(null, type);
     }, 2000);

@@ -16,16 +16,10 @@ const Navbar = ({icon, title}) => {
                 <div className="collapse navbar-collapse" id="collapsibleNavId">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="/user-finder">Home</Link>
+                            <Link className="nav-link text-white font-weight-bold" to="/user-finder">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white" to="/about">About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link text-white" to="#authors">Meet The Authors</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link text-white" to="#contact">contact</Link>
+                            <Link className="nav-link text-white font-weight-bold" to="/about">About</Link>
                         </li>
                     </ul>
                 </div>
