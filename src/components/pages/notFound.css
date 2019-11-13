@@ -1,0 +1,43 @@
+
+
+#notFound { 
+  background-color: #fc7878; 
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  padding: .5em;
+  border-radius: 3px;
+  float: left;
+  margin: 6em 0 0 -155px;
+  left: 50%;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.button:hover {
+  background-color: #27ff68;
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+  text-shadow: #ff8484 1px 1px, #ff8484 2px 2px, #ff8484 3px 3px, #ff8485 4px 4px, #ff8485 5px 5px, #ff8485 6px 6px, #ff8485 7px 7px, #ff8484 8px 8px, #ff8486 9px 9px, #ff8486 10px 10px, #ff8486 11px 11px, #ff8487 12px 12px, #ff8487 13px 13px, #ff8487 14px 14px, #ff8487 15px 15px, #ff8488 16px 16px, #ff8489 17px 17px, #ff8489 18px 18px, #ff8489 19px 19px, #ff8490 20px 20px, #ff8490 21px 21px, #ff8490 22px 22px, #ff8490 23px 23px, #ff8491 24px 24px, #ff8492 25px 25px, #ff8493 26px 26px, #ff8493 27px 27px, #ff8494 28px 28px, #ff8494 29px 29px, #ff8494 30px 30px, #ff8494 31px 31px, #ff8495 32px 32px, #ff8495 33px 33px, #ff8496 34px 34px, #ff8496 35px 35px, #ff8497 36px 36px, #ff8497 37px 37px, #ff8497 38px 38px, #ff8497 39px 39px, #ff8498 40px 40px, #ff8498 41px 41px, #ff8499 42px 42px, #ff8499 43px 43px;
+}
