@@ -22,39 +22,45 @@ nav.background-custom {
 }
 
 /* facebook font */
-.fa-facebook-f{
+.fa-facebook-f {
   color: #0062ff;
 }
 
 /* Github font */
-.fa-github{
+.fa-github {
   color: #fff;
 }
 
 /* Linkedin font */
-.fa-linkedin-in{
+.fa-linkedin-in {
   color: #00eeff;
 }
 
 /* instagram font */
-.fa-instagram{
+.fa-instagram {
   color: #f84747;
 }
 
 /* footer copyright background */
-.bg-copyright-footer{
+.bg-copyright-footer {
   background: #6be9ffbb;
 }
 
 /* about me */
-.about-details{
+.about-details {
   font-size: 20px;
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.3); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 40rem) {
@@ -62,13 +68,13 @@ nav.background-custom {
     font-size: 25px;
   }
 
-  .fab{
+  .fab {
     font-size: 24px;
   }
 }
 
 @media (min-width: 790px) {
   .user-details {
-    height: 500px;
+    height: 400px;
   }
 }

@@ -7,7 +7,7 @@ import GithubContext from "../../context/github/githubContext"
 
 const User = ({ match }) => {
     const githubContext = new useContext(GithubContext);
-    const {getUser, loading, user, getRepos, repos} = githubContext;
+    const { getUser, loading, user, getRepos, repos } = githubContext;
     useEffect(() => {
         getUser(match.params.login);
         getRepos(match.params.login);
@@ -19,7 +19,7 @@ const User = ({ match }) => {
     if (loading) return <Spinner />;
     return (
         <Fragment>
-            <div className="container mt-2">
+            <div className="container my-2">
                 <Link to='/user-finder' className='btn btn-light'>Back to Search</Link>
                 <div className="float-right">
                     Hireable: {' '}

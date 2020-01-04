@@ -5,11 +5,9 @@ import './style.css'
 
 const ReposItem = ({ repo }) => {
   return (
-    <div className="pt-2">
-      <div className="card">
-        <div className='card-body'>
-          <a className="repository-link" target="_blank" rel="noopener noreferrer" href={repo.html_url}>{repo.name}</a>
-        </div>
+    <div className="card mt-2">
+      <div className="card-body">
+        <a className="repository-link" target="_blank" rel="noopener noreferrer" href={repo.html_url}>{repo.name}</a>
       </div>
     </div>
   )
