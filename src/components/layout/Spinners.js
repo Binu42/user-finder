@@ -1,12 +1,18 @@
-import React, {Fragment} from 'react';
-import Spinner from './spinner.gif';
+import React, { Fragment } from 'react';
+import './spinner.css';
 
 const Spinners = () => {
-    return (
-        <Fragment>
-           <img src={Spinner} alt="Loading" style={{width: '200px', margin: 'auto', display: 'block'}}/> 
-        </Fragment>
-    )
-}
+  return (
+    <Fragment>
+      <div className='loader'>
+        <div className='spinner'>
+          <div className='bounce1'></div>
+          <div className='bounce2'></div>
+          <div className='bounce3'></div>
+        </div>
+      </div>
+    </Fragment>
+  );
+};
 
-export default Spinners
+export default Spinners;

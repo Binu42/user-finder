@@ -8,6 +8,10 @@ nav.background-custom {
   background: #ff213f;
 }
 
+#github-contri svg {
+  width: 100%;
+}
+
 .users-card {
   min-height: 250px;
 }
@@ -75,6 +79,6 @@ nav.background-custom {
 
 @media (min-width: 790px) {
   .user-details {
-    height: 400px;
+    height: 100%;
   }
 }
